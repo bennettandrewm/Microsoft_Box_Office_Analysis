@@ -80,33 +80,29 @@ The following diagram (courtesy of Flatiron) was useful for the analysis with th
 #### GENRE
 To examine genre, the goal was to find a correlation between the roughly 20 or so categories and the financial metrics, Gross_Margin in particular. When we correlated, we find that the Adventure Genre correlates most strongly with Gross_Margin.
 
-![Genre.jpg](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Genre.png)
+![Genre.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Genre.png)
 
-####  - GRAPH 1 - Correlation Factors of Genre on Gross_Margin.
-Generally, a correlation factor between 0.25-0.50 is considered weak. So, what about correlation factors below that? I wouldn't make any big bets based on that. It's clear that there is a minor correlation with Mystery and Horror between ROI, but not enough to launch a horror stuido. If there is any take away, is that there's a slightly negative correlation with Drama. Because we're considering Worldwide box office info, perhaps Dramas don't translate overseas the way other more thrilling, scary, or upbeat movies might.
+####  GRAPH 1 - Correlation Factors of Genre on Gross_Margin.
+We can see that it's nearly double the correlation factor of the next genre. It also pairs well with Sci-FI, Action, and Animation. Rarely is a movie just one genre. More common to see a Sci-Fi, Adventure movie or Animated, Adventure movie. And the data bares this out, with one common theme. ADVENTURE!
 
 #### BUDGET
-To examine budget, we wanted to see if there was any range of budget that seemed to perform better than othes. To do this, we created budget categories and measured the distribution of these categories against the ROIs.
+To examine budget, we wanted to see if there was any range of budget that seemed to perform better than othes. To do this, we created budget categories and measured the distribution of these categories against the ROIs. The goal was to see if there was a trend between HOW MANY movies success or fail (based on an ROI = 1) based on their budget. What we found was...
 
-Is it the microbudget suprise hit? The big budget blockbuster? Actually... it's the midbudget monster!
+![Budget.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Budget.png)
 
-![Budget.jpg](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Budget.png)
-
-#### Graph 2 - Distribution of Movies by budget with ROI greater than 1
-
-There are many more budgets in the $30-45M range that have an ROI greater than 1 than any other budget range. Why? It's difficult to say now, and we really don't know. One thought is that this is the lowest budget range that allows for top-level talent to be hired. So, speaking of talent, who's going to lead this thing? 
+#### GRAPH 2 - Distribution of Movies by budget with ROI greater than 1
+Many more movies with the largest budgets (>$70M) have an ROI >= 1. In fact, there appears to be a trend where as the budgets get larger, the more movies make money. It's important to know that these numbers do not factor in cost of distribution and marketing.
 
 #### DIRECTORS
 To determine who are the best directors, we wanted to see who had the best track record in the budget range. We found all of the directors who made AT LEAST 2 movies in this range, and looked at their average profit. In other words, we ranked these directors in descending order based on mean Gross Margin and Voila!
 
-![Directors.jpg](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Directors.png)
+![Directors.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Directors.png)
 
-#### Graph 3 - Directors with Best Average Margins in the $30-45M range
+#### GRAPH 3 - Directors with Best Average ROI in the $>70M range
+There are 44 directors who have made at least 2 successful Adventure. Kyle Banda, Chris Renaud, Steve Martino, Francis Lawrence, Joss Whedon, and Anthony Russo all have ROI > 5. Directors matter. 
 
-The top performing directors are Paul Feig, Olivier Megaton, Jon M.Chu, Seth Gordon, and Ben Affleck. Paul Feig makes hysterical comedies, Olivier Megaton makes high octane action movies (Transporter series, aong others), Jon M.Chu makes beautiful, glossy romance and musicals. Seth Gordon ... also hysterical comedies. Ben Affleck is, well... Ben is Ben. Or one half of Bennifer... depending on the decade.
-
-### Conclusion - Directors with Best Average Margins in the $30-45M range
-While there's much more work to done to launch the movie studio, the data from the past 20 years shows that are many more $30-45M budget movies that take in more money at the box office than they cost to make, regardless of genre. Microsoft should target these directors (provided in the visual) on this list that have a track record of making profitable movies, regardless of genre. So... let's greenlight the studio!
+### Conclusion - Directors with Best Average Margins in the $>70M range
+While there's much more work to done to launch the movie studio, the data from the past 20 years shows, Adventure movies are most strongly correlated with Gross Profit Margin. More big budget movies break even than any other budget. And finding a director matters. Microsoft should target these directors (provided in the visual) on this list that have a track record of making profitable, Big Budget Adventure movies. So... let's greenlight the studio!
 
 
 
