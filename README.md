@@ -47,7 +47,8 @@ This Repository Structure is straightfoward to use
 ### Files
 * Microsoft_Analysis - the Jupyter Notebook with the active code
 * Readme - is... what you're reading now
-* License - is for Flatiron
+* License - Flatiron documentation
+* Contributing - Flatiron documentation
 * .Gitignore - is the ignore file
 * .canvas - is related to canvas software used as part of the Flatiron curriculum
 
