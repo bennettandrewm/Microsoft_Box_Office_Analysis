@@ -86,7 +86,7 @@ To examine genre, the goal was to find a correlation between the roughly 20 or s
 ####  GRAPH 1 - Correlation Factors of Genre on Gross_Margin.
 We can see that it's nearly double the correlation factor of the next genres which are Sci-Fi, Action, and Animation. These genres also positiviely correlate, pairing well with Adventure. When we think about these categories. it's important to note that rarely is a movie just one genre. More common to see a Sci-Fi, Adventure movie or Animated, Adventure movie. And the data bares this out, with one common theme. ADVENTURE!
 
-#### BUDGET
+### BUDGET
 To examine budget, we wanted to see if there was any range of budget that seemed to perform better than othes. To do this, we created budget categories and measured the distribution of these categories against the ROIs. The goal was to see if there was a trend between HOW MANY movies success or fail (based on an ROI = 1) based on their budget. What we found was...
 
 ![Budget.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Images/Budget.png)
@@ -94,7 +94,7 @@ To examine budget, we wanted to see if there was any range of budget that seemed
 #### GRAPH 2 - Distribution of Movies by budget with ROI greater than 1
 Many more movies with the largest budgets (>$70M) have an ROI >= 1. In fact, there appears to be a trend where as the budgets get larger, the more movies make money. It's important to know that these numbers do not factor in cost of distribution and marketing.
 
-#### DIRECTORS
+### DIRECTORS
 To determine the best directors, we wanted to see who had the best track record in the budget range. We found all of the directors who made AT LEAST 2 movies in this range, and looked at their average profit. In other words, we ranked these directors in descending order based on mean Gross Margin and Voila!
 
 ![Directors.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Images/Directors.png)
