@@ -80,7 +80,7 @@ The following diagram (courtesy of Flatiron) was useful for the analysis with th
 #### GENRE
 To examine genre, the goal was to find a correlation between the roughly 20 or so categories and the financial metrics, Gross_Margin in particular. When we correlated, we find that the Adventure Genre correlates most strongly with Gross_Margin.
 
-![Genre.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Genre.png)
+![Genre.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Images/Genre.png)
 
 ####  GRAPH 1 - Correlation Factors of Genre on Gross_Margin.
 We can see that it's nearly double the correlation factor of the next genre. It also pairs well with Sci-FI, Action, and Animation. Rarely is a movie just one genre. More common to see a Sci-Fi, Adventure movie or Animated, Adventure movie. And the data bares this out, with one common theme. ADVENTURE!
@@ -88,7 +88,7 @@ We can see that it's nearly double the correlation factor of the next genre. It 
 #### BUDGET
 To examine budget, we wanted to see if there was any range of budget that seemed to perform better than othes. To do this, we created budget categories and measured the distribution of these categories against the ROIs. The goal was to see if there was a trend between HOW MANY movies success or fail (based on an ROI = 1) based on their budget. What we found was...
 
-![Budget.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Budget.png)
+![Budget.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Images/Budget.png)
 
 #### GRAPH 2 - Distribution of Movies by budget with ROI greater than 1
 Many more movies with the largest budgets (>$70M) have an ROI >= 1. In fact, there appears to be a trend where as the budgets get larger, the more movies make money. It's important to know that these numbers do not factor in cost of distribution and marketing.
@@ -96,7 +96,7 @@ Many more movies with the largest budgets (>$70M) have an ROI >= 1. In fact, the
 #### DIRECTORS
 To determine who are the best directors, we wanted to see who had the best track record in the budget range. We found all of the directors who made AT LEAST 2 movies in this range, and looked at their average profit. In other words, we ranked these directors in descending order based on mean Gross Margin and Voila!
 
-![Directors.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Directors.png)
+![Directors.png](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Images/Directors.png)
 
 #### GRAPH 3 - Directors with Best Average ROI in the $>70M range
 There are 44 directors who have made at least 2 successful Adventure. Kyle Banda, Chris Renaud, Steve Martino, Francis Lawrence, Joss Whedon, and Anthony Russo all have ROI > 5. Directors matter. 
