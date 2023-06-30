@@ -45,7 +45,7 @@ This Repository Structure is straightfoward to use
 * PDFs Folder - Jupter Notebook and Presentation as PDFs
 
 ### Files
-* student - the Jupyter Notebook with the active code
+* Microsoft_Analysis - the Jupyter Notebook with the active code
 * Readme - is... what you're reading now
 * License - is for Flatiron
 * .Gitignore - is the ignore file
