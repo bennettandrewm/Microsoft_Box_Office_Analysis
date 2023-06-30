@@ -9,7 +9,7 @@ To aid Microsoft in its voyage into movie making, this repository contains all t
 * invest heavily in big budget movies ($70M) 
 * hire directors with a track record of Profitability doing Big Budget Adventure Movies
 
-![Movie_Image.jpg](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Movie_Image.jpg)
+![Movie_Image](https://github.com/bennettandrewm/Microsoft_Box_Office_Analysis/blob/master/Movie_Image.jpg)
 
 *"The business of film is to make dreams into reality so audiences can escape for a few hours."* 
 
